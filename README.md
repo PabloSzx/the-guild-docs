@@ -1,17 +1,17 @@
-# the-guild-docs
+# @pablosz/guild-docs
 
 Low level documentation websites using [Next.js](https://nextjs.org/)
 
-## guild-docs package
+## @pablosz/guild-docs package
 
 To initialize a guild-docs package, you can use **npx**:
 
 ```bash
-npx guild-docs init
+npx @pablosz/guild-docs init
 ```
 
 ```
-$ npx guild-docs init
+$ npx @pablosz/guild-docs init
 
 Configuration files added!
 Dependencies added!
@@ -43,7 +43,7 @@ But you can define _Custom Components_ to be used inside the MDX in the **app.ts
 > const SomeHeavyComponent = dynamic(() => import('./SomeHeavyComponent'));
 
 ```tsx
-import { ExtendComponents } from '@guild-docs/client';
+import { ExtendComponents } from '@pablosz/guild-docs-client';
 
 // ...
 ExtendComponents({
@@ -70,7 +70,7 @@ By default, in initialization, a `routes.ts` file is created as it follows:
 > `IRoutes` is a recursive object type designed to make and customize the routes, with a special `GenerateRoutes` helper function that reads from a folder pattern(s) ([using minimatch patterns](https://globster.xyz/)) with [globby](https://github.com/sindresorhus/globby).
 
 ```ts
-import { IRoutes, GenerateRoutes } from '@guild-docs/server';
+import { IRoutes, GenerateRoutes } from '@pablosz/guild-docs-server';
 
 export function getRoutes(): IRoutes {
   const Routes: IRoutes = {

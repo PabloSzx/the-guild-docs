@@ -5,7 +5,7 @@ import { appWithTranslation } from 'next-i18next';
 
 import { extendTheme, theme as chakraTheme } from '@chakra-ui/react';
 import { mode } from '@chakra-ui/theme-tools';
-import { ExtendComponents, handlePushRoute, CombinedThemeProvider, DocsPage, AppSeoProps } from '@guild-docs/client';
+import { ExtendComponents, handlePushRoute, CombinedThemeProvider, DocsPage, AppSeoProps } from '@pablosz/guild-docs-client';
 import { Header, Subheader, Footer } from '@theguild/components';
 
 import type { AppProps } from 'next/app';

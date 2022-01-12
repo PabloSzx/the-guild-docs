@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-import { DocsContent, DocsTOC, MDXPage } from '@guild-docs/client';
-import { MDXPaths, MDXProps } from '@guild-docs/server';
+import { DocsContent, DocsTOC, MDXPage } from '@pablosz/guild-docs-client';
+import { MDXPaths, MDXProps } from '@pablosz/guild-docs-server';
 
 import { getRoutes } from '../../../routes';
 

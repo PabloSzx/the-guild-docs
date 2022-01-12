@@ -8,7 +8,7 @@ import { useSafeLayoutEffect, chakra, useColorModeValue } from '@chakra-ui/react
 import { arePathnamesEqual, concatHrefs, iterateRoutes, withoutTrailingSlash } from './routes';
 import { cleanMarkdown, getDefault } from './utils';
 
-import type { BottomNavigationProps, Paths } from '@guild-docs/types';
+import type { BottomNavigationProps, Paths } from '@pablosz/guild-docs-types';
 
 const Wrapper = chakra('div', {
   baseStyle: {

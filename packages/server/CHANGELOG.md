@@ -1,4 +1,4 @@
-# @guild-docs/server
+# @pablosz/guild-docs-server
 
 ## 2.1.6
 
@@ -12,7 +12,7 @@
 
 - 6d89612: Lint fixes
 - Updated dependencies [6d89612]
-  - @guild-docs/mdx-remote@1.0.2
+  - @pablosz/guild-docs-mdx-remote@1.0.2
 
 ## 2.1.4
 
@@ -34,7 +34,7 @@
 
 - 4554abb: feat(server): add more language - yml,gql,c#,jsonc,java
 - Updated dependencies [a72fdb4]
-  - @guild-docs/mdx-remote@1.0.1
+  - @pablosz/guild-docs-mdx-remote@1.0.1
 
 ## 2.1.1
 
@@ -80,10 +80,10 @@
 
 ### Patch Changes
 
-- 24878ed: Use @guild-docs/mdx-remote with esbuild as peer dependency (no need for esbuild resolutions/overrides)
+- 24878ed: Use @pablosz/guild-docs-mdx-remote with esbuild as peer dependency (no need for esbuild resolutions/overrides)
 - Updated dependencies [24878ed]
-  - @guild-docs/types@1.0.3
-  - @guild-docs/mdx-remote@1.0.0
+  - @pablosz/guild-docs-types@1.0.3
+  - @pablosz/guild-docs-mdx-remote@1.0.0
 
 ## 2.0.1
 
@@ -147,7 +147,7 @@
 - 268579c: Fix: specify next-mdx-remote/serialize .js extension
 - 5addeaa: Pin next-mdx-remote to 3.0.6
 - Updated dependencies [5addeaa]
-  - @guild-docs/types@1.0.2
+  - @pablosz/guild-docs-types@1.0.2
 
 ## 1.0.5
 
@@ -156,7 +156,7 @@
 - b4feff4: Update next-mdx-remote with latest esbuild version
 - 8741e40: Fix next-mdx-remote race condition
 - Updated dependencies [b4feff4]
-  - @guild-docs/types@1.0.1
+  - @pablosz/guild-docs-types@1.0.1
 
 ## 1.0.4
 
@@ -192,7 +192,7 @@
 
 - 1383ef6: update remark plugins with ESM only using dynamic imports
 - Updated dependencies [fb55d6a]
-  - @guild-docs/types@1.0.0
+  - @pablosz/guild-docs-types@1.0.0
 
 ## 0.2.25
 
@@ -218,7 +218,7 @@
 
 ### Patch Changes
 
-- 35ebc64: add "getPackagesData" npm package data fetcher, import via `@guild-docs/server/npm`
+- 35ebc64: add "getPackagesData" npm package data fetcher, import via `@pablosz/guild-docs-server/npm`
 
 ## 0.2.16
 
@@ -229,7 +229,7 @@
 - 19b4cb5: mdx component client & server side
 - Updated dependencies [919abbb]
 - Updated dependencies [19b4cb5]
-  - @guild-docs/types@0.2.16
+  - @pablosz/guild-docs-types@0.2.16
 
 ## 0.2.15
 
@@ -265,7 +265,7 @@
 - Updated dependencies [a5abb84]
 - Updated dependencies [9522198]
 - Updated dependencies [d2105c5]
-  - @guild-docs/types@0.2.1
+  - @pablosz/guild-docs-types@0.2.1
 
 ## 0.1.1
 
@@ -273,7 +273,7 @@
 
 - c673f70: allow customize client components & sync packages
 - Updated dependencies [c673f70]
-  - @guild-docs/types@0.1.1
+  - @pablosz/guild-docs-types@0.1.1
 
 ## 0.0.7
 
@@ -281,7 +281,7 @@
 
 - 072368d: new building process
 - Updated dependencies [072368d]
-  - @guild-docs/types@0.0.6
+  - @pablosz/guild-docs-types@0.0.6
 
 ## 0.0.6
 
@@ -292,7 +292,7 @@
 - Updated dependencies [88a38cd]
 - Updated dependencies [610cf39]
 - Updated dependencies [610cf39]
-  - @guild-docs/types@0.0.5
+  - @pablosz/guild-docs-types@0.0.5
 
 ## 0.0.5
 
@@ -300,7 +300,7 @@
 
 - 2029057: improve TOC
 - Updated dependencies [2029057]
-  - @guild-docs/types@0.0.4
+  - @pablosz/guild-docs-types@0.0.4
 
 ## 0.0.4
 
@@ -309,7 +309,7 @@
 - 3663a0a: add TOC
 - ad80271: fix remark-admonitions dep
 - Updated dependencies [3663a0a]
-  - @guild-docs/types@0.0.3
+  - @pablosz/guild-docs-types@0.0.3
 
 ## 0.0.3
 

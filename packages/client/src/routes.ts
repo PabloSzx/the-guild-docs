@@ -1,4 +1,4 @@
-import type { IRoutes, Paths } from '@guild-docs/types';
+import type { IRoutes, Paths } from '@pablosz/guild-docs-types';
 
 /**
  * Compare function designed to ignore trailing slashes when comparing paths

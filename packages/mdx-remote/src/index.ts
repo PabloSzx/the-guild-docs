@@ -1,6 +1,6 @@
 import * as MDX from '@mdx-js/react';
 import React, { useEffect, useMemo, useState, createElement } from 'react';
-import type { MDXRemoteSerializeResult } from '@guild-docs/types';
+import type { MDXRemoteSerializeResult } from '@pablosz/guild-docs-types';
 
 // requestIdleCallback types found here: https://github.com/microsoft/TypeScript/issues/21309
 type RequestIdleCallbackHandle = number;
@@ -36,7 +36,7 @@ export type MDXRemoteProps = MDXRemoteSerializeResult & {
   lazy?: boolean;
 };
 
-export type { SerializeOptions, MDXRemoteSerializeResult } from '@guild-docs/types';
+export type { SerializeOptions, MDXRemoteSerializeResult } from '@pablosz/guild-docs-types';
 
 /**
  * Renders compiled source from next-mdx-remote/serialize.

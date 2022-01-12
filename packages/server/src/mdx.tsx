@@ -1,6 +1,6 @@
-import type { MDXRemoteSerializeResult, SerializeOptions } from '@guild-docs/mdx-remote';
-import type { IRoutes, MdxInternalProps, PossiblePromise, TOC } from '@guild-docs/types';
-import { LazyPromise } from '@guild-docs/types';
+import type { MDXRemoteSerializeResult, SerializeOptions } from '@pablosz/guild-docs-mdx-remote';
+import type { IRoutes, MdxInternalProps, PossiblePromise, TOC } from '@pablosz/guild-docs-types';
+import { LazyPromise } from '@pablosz/guild-docs-types';
 import { access, readFile } from 'fs/promises';
 import globby from 'globby';
 import matter from 'gray-matter';
@@ -188,7 +188,7 @@ const MdxDeps = LazyPromise(async () => {
       ],
     }),
     import('./remarkShiki').then(v => v.withShiki()),
-    import('@guild-docs/mdx-remote/serialize'),
+    import('@pablosz/guild-docs-mdx-remote/serialize'),
     import('rehype-slug').then(v => v.default),
   ]);
 

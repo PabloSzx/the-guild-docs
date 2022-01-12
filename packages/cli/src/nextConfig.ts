@@ -9,7 +9,7 @@ export async function writeNextConfig() {
   
   const { i18n } = require('./next-i18next.config.js');
   
-  const { withGuildDocs } = require('@guild-docs/server');
+  const { withGuildDocs } = require('@pablosz/guild-docs-server');
   
   const { getRoutes } = require('./routes.ts');
   
@@ -47,7 +47,7 @@ export async function writeRoutes() {
   await writeFileFormatIfNotExists(
     [config.cwd, 'routes.ts'],
     `
-    import { IRoutes, GenerateRoutes } from '@guild-docs/server';
+    import { IRoutes, GenerateRoutes } from '@pablosz/guild-docs-server';
 
     export function getRoutes(): IRoutes {
       const Routes: IRoutes = {
@@ -102,7 +102,7 @@ export async function writeApp() {
     
     import { extendTheme, theme as chakraTheme } from '@chakra-ui/react';
     import { mode } from '@chakra-ui/theme-tools';
-    import { ExtendComponents, handlePushRoute, CombinedThemeProvider, DocsPage, AppSeoProps } from '@guild-docs/client';
+    import { ExtendComponents, handlePushRoute, CombinedThemeProvider, DocsPage, AppSeoProps } from '@pablosz/guild-docs-client';
     import { Header, Subheader, Footer } from '@theguild/components';
     
     import type { AppProps } from 'next/app';
@@ -272,8 +272,8 @@ export async function writeDocPages() {
     `
     import Head from 'next/head';
 
-    import { DocsContent, DocsTOC, MDXPage } from '@guild-docs/client';
-    import { MDXPaths, MDXProps } from '@guild-docs/server';
+    import { DocsContent, DocsTOC, MDXPage } from '@pablosz/guild-docs-client';
+    import { MDXPaths, MDXProps } from '@pablosz/guild-docs-server';
     
     import { getRoutes } from '../../../routes';
     
@@ -316,7 +316,7 @@ export async function writeDocPages() {
     `
     import { HeroGradient, InfoList } from '@theguild/components';
 
-    import { handlePushRoute } from '@guild-docs/client';
+    import { handlePushRoute } from '@pablosz/guild-docs-client';
     
     export default function Index() {
       return (
@@ -381,7 +381,7 @@ sidebar_label: Getting Started
 
 ## Heading 2
 
-<PackageInstall packages={['@guild-docs/client @guild-docs/server', '-D @types/node']} />
+<PackageInstall packages={['@pablosz/guild-docs-client @pablosz/guild-docs-server', '-D @types/node']} />
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nascetur ridiculus mus mauris vitae ultricies leo integer. Duis at consectetur lorem donec massa sapien. Ipsum dolor sit amet consectetur adipiscing. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Est pellentesque elit ullamcorper dignissim cras tincidunt. Gravida dictum fusce ut placerat orci nulla. Augue lacus viverra vitae congue eu. Risus quis varius quam quisque id diam vel. Imperdiet massa tincidunt nunc pulvinar. Amet tellus cras adipiscing enim eu turpis. Velit scelerisque in dictum non consectetur. In fermentum posuere urna nec.
 

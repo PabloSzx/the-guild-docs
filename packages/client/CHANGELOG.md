@@ -1,4 +1,4 @@
-# @guild-docs/client
+# @pablosz/guild-docs-client
 
 ## 1.3.4
 
@@ -14,7 +14,7 @@
 
 - 6d89612: Lint fixes
 - Updated dependencies [6d89612]
-  - @guild-docs/mdx-remote@1.0.2
+  - @pablosz/guild-docs-mdx-remote@1.0.2
 
 ## 1.3.2
 
@@ -44,7 +44,7 @@
 
 - 421d733: link color should be as `accentColor`
 - Updated dependencies [002534a]
-  - @guild-docs/types@1.1.0
+  - @pablosz/guild-docs-types@1.1.0
 
 ## 1.2.3
 
@@ -59,7 +59,7 @@
 
 - 7f1d974: Improve released package
 - Updated dependencies [a72fdb4]
-  - @guild-docs/mdx-remote@1.0.1
+  - @pablosz/guild-docs-mdx-remote@1.0.1
 
 ## 1.2.1
 
@@ -83,10 +83,10 @@
 
 ### Patch Changes
 
-- 24878ed: Use @guild-docs/mdx-remote with esbuild as peer dependency (no need for esbuild resolutions/overrides)
+- 24878ed: Use @pablosz/guild-docs-mdx-remote with esbuild as peer dependency (no need for esbuild resolutions/overrides)
 - Updated dependencies [24878ed]
-  - @guild-docs/types@1.0.3
-  - @guild-docs/mdx-remote@1.0.0
+  - @pablosz/guild-docs-types@1.0.3
+  - @pablosz/guild-docs-mdx-remote@1.0.0
 
 ## 1.1.1
 
@@ -94,7 +94,7 @@
 
 - 5addeaa: Pin next-mdx-remote to 3.0.6
 - Updated dependencies [5addeaa]
-  - @guild-docs/types@1.0.2
+  - @pablosz/guild-docs-types@1.0.2
 
 ## 1.1.0
 
@@ -106,7 +106,7 @@
 
 - b4feff4: Update next-mdx-remote with latest esbuild version
 - Updated dependencies [b4feff4]
-  - @guild-docs/types@1.0.1
+  - @pablosz/guild-docs-types@1.0.1
 
 ## 1.0.7
 
@@ -154,7 +154,7 @@
 ### Patch Changes
 
 - Updated dependencies [fb55d6a]
-  - @guild-docs/types@1.0.0
+  - @pablosz/guild-docs-types@1.0.0
 
 ## 0.2.28
 
@@ -168,7 +168,7 @@
 
 - 3fc9b94: improve MDXNavigation wrapperProps
 - Updated dependencies [3fc9b94]
-  - @guild-docs/types@0.2.27
+  - @pablosz/guild-docs-types@0.2.27
 
 ## 0.2.26
 
@@ -216,7 +216,7 @@
 
 - 128ec1a: fix override toc & navigation prop types
 - Updated dependencies [128ec1a]
-  - @guild-docs/types@0.2.17
+  - @pablosz/guild-docs-types@0.2.17
 
 ## 0.2.16
 
@@ -226,7 +226,7 @@
 - 19b4cb5: mdx component client & server side
 - Updated dependencies [919abbb]
 - Updated dependencies [19b4cb5]
-  - @guild-docs/types@0.2.16
+  - @pablosz/guild-docs-types@0.2.16
 
 ## 0.2.15
 
@@ -241,7 +241,7 @@
 - e4c8fba: add isAccordionDefaultOpen callback & minor improvements/fixes
 - e4c8fba: default style improvements & fix defaultOpenDepth
 - Updated dependencies [e4c8fba]
-  - @guild-docs/types@0.2.14
+  - @pablosz/guild-docs-types@0.2.14
 
 ## 0.2.13
 
@@ -286,7 +286,7 @@
 - d2af805: @theguild/components wrappers
 - 56217ea: optional handleLinkClick
 - Updated dependencies [56217ea]
-  - @guild-docs/types@0.2.8
+  - @pablosz/guild-docs-types@0.2.8
 
 ## 0.2.6
 
@@ -324,7 +324,7 @@
 - Updated dependencies [a5abb84]
 - Updated dependencies [9522198]
 - Updated dependencies [d2105c5]
-  - @guild-docs/types@0.2.1
+  - @pablosz/guild-docs-types@0.2.1
 
 ## 0.2.0
 
@@ -338,7 +338,7 @@
 
 - c673f70: allow customize client components & sync packages
 - Updated dependencies [c673f70]
-  - @guild-docs/types@0.1.1
+  - @pablosz/guild-docs-types@0.1.1
 
 ## 0.1.0
 
@@ -355,7 +355,7 @@
 - 201a589: fix empty title
 - 072368d: new building process
 - Updated dependencies [072368d]
-  - @guild-docs/types@0.0.6
+  - @pablosz/guild-docs-types@0.0.6
 
 ## 0.0.11
 
@@ -375,7 +375,7 @@
 - Updated dependencies [88a38cd]
 - Updated dependencies [610cf39]
 - Updated dependencies [610cf39]
-  - @guild-docs/types@0.0.5
+  - @pablosz/guild-docs-types@0.0.5
 
 ## 0.0.9
 
@@ -389,7 +389,7 @@
 
 - 2029057: improve TOC
 - Updated dependencies [2029057]
-  - @guild-docs/types@0.0.4
+  - @pablosz/guild-docs-types@0.0.4
 
 ## 0.0.7
 
@@ -397,4 +397,4 @@
 
 - 3663a0a: add TOC
 - Updated dependencies [3663a0a]
-  - @guild-docs/types@0.0.3
+  - @pablosz/guild-docs-types@0.0.3

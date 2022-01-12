@@ -1,8 +1,8 @@
-import { getPackagesData, PackageWithStats } from '@guild-docs/server/npm';
+import { getPackagesData, PackageWithStats } from '@pablosz/guild-docs-server/npm';
 import { GetStaticProps } from 'next';
-import { buildMultipleMDX, CompiledMDX } from '@guild-docs/server';
+import { buildMultipleMDX, CompiledMDX } from '@pablosz/guild-docs-server';
 import { Stack, Box, Heading } from '@chakra-ui/react';
-import { MDX, PackageInstall } from '@guild-docs/client';
+import { MDX, PackageInstall } from '@pablosz/guild-docs-client';
 
 interface Props {
   data: Array<
@@ -19,7 +19,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
     packageList: [
       {
         identifier: 'client',
-        npmPackage: '@guild-docs/client',
+        npmPackage: '@pablosz/guild-docs-client',
         tags: [],
         title: 'Guild Docs Client',
         githubReadme: {

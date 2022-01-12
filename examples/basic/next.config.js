@@ -3,7 +3,7 @@ require('bob-tsm');
 
 const { i18n } = require('./next-i18next.config.js');
 
-const { withGuildDocs } = require('@guild-docs/server');
+const { withGuildDocs } = require('@pablosz/guild-docs-server');
 
 const { getRoutes } = require('./routes.ts');
 

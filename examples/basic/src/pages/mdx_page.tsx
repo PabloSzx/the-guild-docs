@@ -1,6 +1,6 @@
 import { promises } from 'fs';
-import { MDXPage } from '@guild-docs/client';
-import { MDXProps } from '@guild-docs/server';
+import { MDXPage } from '@pablosz/guild-docs-client';
+import { MDXProps } from '@pablosz/guild-docs-server';
 
 import type { GetStaticProps } from 'next';
 

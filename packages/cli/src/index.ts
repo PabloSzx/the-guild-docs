@@ -28,8 +28,8 @@ async function DepsAction(dir: string = process.cwd()) {
 
   await Promise.all([
     addDependency([
-      '@guild-docs/client',
-      '@guild-docs/server',
+      '@pablosz/guild-docs-client',
+      '@pablosz/guild-docs-server',
       '@mdx-js/react',
       '@chakra-ui/react',
       '@chakra-ui/theme-tools',

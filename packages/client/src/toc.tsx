@@ -1,5 +1,5 @@
 import { chakra, useColorModeValue, useSafeLayoutEffect, useUpdateEffect } from '@chakra-ui/react';
-import type { MDXTOCProps } from '@guild-docs/types';
+import type { MDXTOCProps } from '@pablosz/guild-docs-types';
 import React, { useEffect, useState } from 'react';
 import { observe } from 'react-intersection-observer';
 import { useImmer } from 'use-immer';

@@ -19,7 +19,7 @@ import {
 } from '@chakra-ui/react';
 import type { Dict } from '@chakra-ui/utils';
 import { Global } from '@emotion/react';
-import type { IRoutes, MdxInternalProps } from '@guild-docs/types';
+import type { IRoutes, MdxInternalProps } from '@pablosz/guild-docs-types';
 import { GlobalStyles, ThemeProvider as TGCThemeProvider } from '@theguild/components';
 import { DefaultSeo } from 'next-seo';
 import type { DefaultSeoProps, OpenGraphMedia } from 'next-seo/lib/types';

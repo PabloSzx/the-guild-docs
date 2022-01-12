@@ -1,5 +1,5 @@
-import { buildMDX, CompiledMDX } from '@guild-docs/server';
-import { MDX } from '@guild-docs/client';
+import { buildMDX, CompiledMDX } from '@pablosz/guild-docs-server';
+import { MDX } from '@pablosz/guild-docs-client';
 import { promises } from 'fs';
 
 import type { GetStaticProps } from 'next';

@@ -1,12 +1,12 @@
 import { useTranslation } from 'next-i18next';
-import { MDXRemote } from '@guild-docs/mdx-remote';
+import { MDXRemote } from '@pablosz/guild-docs-mdx-remote';
 import React, { PropsWithChildren, ReactElement, useCallback, useMemo } from 'react';
 
 import { BottomNavigationComponent } from './bottomNavigation';
 import { components } from './components';
 import { MDXTOC } from './toc';
 
-import type { MdxPageProps, MdxInternalProps, IRoutes, BottomNavigationProps } from '@guild-docs/types';
+import type { MdxPageProps, MdxInternalProps, IRoutes, BottomNavigationProps } from '@pablosz/guild-docs-types';
 import { cleanMarkdown } from './utils';
 
 export interface MDXPageOptions {

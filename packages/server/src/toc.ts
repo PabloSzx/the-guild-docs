@@ -1,6 +1,6 @@
 import GithubSlugger from 'github-slugger';
 
-import type { TOC } from '@guild-docs/types';
+import type { TOC } from '@pablosz/guild-docs-types';
 
 export function SerializeTOC(content: string): TOC {
   const slugger = new GithubSlugger();

@@ -1,5 +1,5 @@
 import { HeroGradient, InfoList } from '@theguild/components';
-import { NPMBadge, handlePushRoute } from '@guild-docs/client';
+import { NPMBadge, handlePushRoute } from '@pablosz/guild-docs-client';
 
 export default function Index() {
   return (
@@ -13,7 +13,7 @@ export default function Index() {
           title: 'Get started with The Guild Docs',
           onClick: e => handlePushRoute('/docs', e),
         }}
-        version={<NPMBadge name="@guild-docs/client" />}
+        version={<NPMBadge name="@pablosz/guild-docs-client" />}
         colors={['#000', '#1cc8ee']}
       />
 

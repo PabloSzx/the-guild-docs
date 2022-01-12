@@ -1,9 +1,9 @@
-import { MDXRemote } from '@guild-docs/mdx-remote';
+import { MDXRemote } from '@pablosz/guild-docs-mdx-remote';
 import React, { ComponentType } from 'react';
 
 import { components } from './components';
 
-import type { MDXRemoteSerializeResult } from '@guild-docs/mdx-remote';
+import type { MDXRemoteSerializeResult } from '@pablosz/guild-docs-mdx-remote';
 
 export type ExtraMdxComponents<TComponents extends Record<string, ComponentType<any>> = Record<string, never>> = Partial<
   Record<keyof typeof components, ComponentType<any>>
@@ -21,7 +21,7 @@ export function MDX<TComponents extends Record<string, ComponentType<any>> = Rec
 }
 
 import type { ComponentProps } from 'react';
-import type { CompiledMDX } from '@guild-docs/server';
+import type { CompiledMDX } from '@pablosz/guild-docs-server';
 
 const protocols = ['http', 'https', 'mailto', 'tel'];
 

@@ -5,6 +5,6 @@ export * from './navigation';
 export * from './components';
 export * from './docs/index';
 
-export * from '@guild-docs/types';
+export * from '@pablosz/guild-docs-types';
 export * from './wrappers';
 export * from './mdx';

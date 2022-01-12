@@ -1,11 +1,11 @@
-import type { IRoutes } from '@guild-docs/types';
+import type { IRoutes } from '@pablosz/guild-docs-types';
 import type { NextConfig } from 'next';
 
 export interface WithGuildDocsOptions extends NextConfig {
   getRoutes: () => IRoutes;
 }
 
-export * from '@guild-docs/types';
+export * from '@pablosz/guild-docs-types';
 
 export function withGuildDocs({ env = {}, getRoutes, ...rest }: WithGuildDocsOptions) {
   return {
