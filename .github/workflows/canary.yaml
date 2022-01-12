@@ -49,27 +49,3 @@ jobs:
           npm-token: ${{ secrets.NPM_TOKEN }}
           npm-script: 'pnpm release:canary'
           changesets: true
-
-      - name: Publish a message
-        if: steps.canary.outputs.released
-        uses: 'kamilkisiela/pr-comment@master'
-        with:
-          message: |
-            The latest changes of this PR are available as alpha in npm (based on the declared `changesets`):
-
-            ```
-            ${{ steps.canary.outputs.changesetsPublishedPackages}}
-            ```
-          bot-token: ${{ secrets.BOT_GH_TOKEN }}
-          bot: 'theguild-bot'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Publish a empty message
-        if: steps.canary.outputs.released == 'false'
-        uses: 'kamilkisiela/pr-comment@master'
-        with:
-          message: |
-            The latest changes of this PR are not available as alpha, since there are no linked `changesets` for this PR.
-          bot-token: ${{ secrets.BOT_GH_TOKEN }}
-          bot: 'theguild-bot'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
