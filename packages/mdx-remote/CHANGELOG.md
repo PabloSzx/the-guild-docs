@@ -1,5 +1,13 @@
 # @pablosz/guild-docs-mdx-remote
 
+## 1.0.3
+
+### Patch Changes
+
+- e7975a6: @pablosz/guild-docs release
+- Updated dependencies [e7975a6]
+  - @pablosz/guild-docs-types@1.1.1
+
 ## 1.0.2
 
 ### Patch Changes

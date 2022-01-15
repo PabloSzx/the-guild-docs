@@ -1,5 +1,11 @@
 # @pablosz/guild-docs-types
 
+## 1.1.1
+
+### Patch Changes
+
+- e7975a6: @pablosz/guild-docs release
+
 ## 1.1.0
 
 ### Minor Changes

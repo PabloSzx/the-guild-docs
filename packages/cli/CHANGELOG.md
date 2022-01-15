@@ -1,5 +1,11 @@
 # guild-docs
 
+## 1.0.5
+
+### Patch Changes
+
+- e7975a6: @pablosz/guild-docs release
+
 ## 1.0.4
 
 ### Patch Changes

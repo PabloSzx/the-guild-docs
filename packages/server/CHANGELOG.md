@@ -1,5 +1,18 @@
 # @pablosz/guild-docs-server
 
+## 2.2.0
+
+### Minor Changes
+
+- 8608b1c: Use "undici" instead of "node-fetch"
+
+### Patch Changes
+
+- e7975a6: @pablosz/guild-docs release
+- Updated dependencies [e7975a6]
+  - @pablosz/guild-docs-mdx-remote@1.0.3
+  - @pablosz/guild-docs-types@1.1.1
+
 ## 2.1.6
 
 ### Patch Changes

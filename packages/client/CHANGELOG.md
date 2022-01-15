@@ -1,5 +1,16 @@
 # @pablosz/guild-docs-client
 
+## 1.3.5
+
+### Patch Changes
+
+- e7975a6: @pablosz/guild-docs release
+- Updated dependencies [e7975a6]
+- Updated dependencies [8608b1c]
+  - @pablosz/guild-docs-mdx-remote@1.0.3
+  - @pablosz/guild-docs-server@2.2.0
+  - @pablosz/guild-docs-types@1.1.1
+
 ## 1.3.4
 
 ### Patch Changes
