@@ -37,11 +37,11 @@
     "zustand": "^3.6.9"
   },
   "devDependencies": {
-    "@chakra-ui/icons": "^1.1.1",
-    "@chakra-ui/layout": "^1.7.0",
-    "@chakra-ui/react": "^1.7.4",
-    "@chakra-ui/system": "^1.9.1",
-    "@chakra-ui/utils": "^1.9.1",
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/layout": "^1.8.0",
+    "@chakra-ui/react": "^1.8.9",
+    "@chakra-ui/system": "^1.12.1",
+    "@chakra-ui/utils": "^1.10.4",
     "@emotion/react": "^11.7.1",
     "@mdx-js/react": "^1.6.22",
     "@pablosz/guild-docs-server": "workspace:^2.1.6",
